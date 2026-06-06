@@ -21,5 +21,11 @@ CREATE OR REPLACE GIT REPOSITORY course_repo.public.advanced_data_engineering_sn
   ORIGIN = '' -- Insert URL of forked repo
   GIT_CREDENTIALS = ;
 
+use database course_repo;
+
 -- List the git repositories
+SHOW GIT REPOSITORIES;
+
+use database git_study;
+
 SHOW GIT REPOSITORIES;
